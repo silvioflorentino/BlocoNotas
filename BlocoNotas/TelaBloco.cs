@@ -21,5 +21,10 @@ namespace BlocoNotas
         {
             richTextBoxCentral.Rtf = string.Empty;
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
